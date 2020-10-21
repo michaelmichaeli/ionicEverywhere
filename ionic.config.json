@@ -1,0 +1,7 @@
+{
+  "name": "ionicEverywhere",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
