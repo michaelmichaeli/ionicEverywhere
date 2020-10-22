@@ -1,0 +1,10 @@
+<ion-header *ngIf="!(isDesktop | async)">
+  <ion-toolbar color="primary">
+    <ion-title>Profile</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <app-header *ngIf="(isDesktop | async)"></app-header>
+  My Profile page
+</ion-content>
